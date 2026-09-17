@@ -21,7 +21,7 @@ The bracket sequence starts with an opening square bracket [ but ends with two c
 
 The opening and closing bracket counts and types are mismatched/unbalanced.
 
-2. What needs to be changed to make it correct?
+### 2. What needs to be changed to make it correct?
 Answer:
 Change the final closing square bracket ] to a closing parenthesis ).
 
