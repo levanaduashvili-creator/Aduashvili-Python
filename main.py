@@ -14,10 +14,9 @@ def check_name():
         print("There is no such name")
 
 def check_multiples_of_three():
-    raw_input = input("Enter numbers separated by spaces (e.g., 1 3 6 7 9): ")
+    raw_numbers = input("Enter numbers separated by spaces (e.g., 1 3 6 7 9): ")
     try:
-        # Changed float(x) to int(x) for whole number formatting
-        numbers = [int(x) for x in raw_input.strip().split()]
+        numbers = [int(x) for x in raw_numbers.strip().split()]
         multiples = [str(x) for x in numbers if x % 3 == 0]
         
         if multiples:
