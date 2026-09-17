@@ -12,7 +12,7 @@ The interactive script for all three tasks is available in `main.py`.
    ## Part 2: Bracket Sequence Analysis
    Given sequence: [((())()(())]]
 
-###1. Can this sequence be considered correct?
+### 1. Can this sequence be considered correct?
 Answer: No.
 
 Reasoning:
