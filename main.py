@@ -16,7 +16,8 @@ def check_name():
 def check_multiples_of_three():
     raw_input = input("Enter numbers separated by spaces (e.g., 1 3 6 7 9): ")
     try:
-        numbers = [float(x) for x in raw_input.strip().split()]
+        # Changed float(x) to int(x) for whole number formatting
+        numbers = [int(x) for x in raw_input.strip().split()]
         multiples = [str(x) for x in numbers if x % 3 == 0]
         
         if multiples:
@@ -24,7 +25,7 @@ def check_multiples_of_three():
         else:
             print("No multiples of 3 found.")
     except ValueError:
-        print("Please enter valid numbers only.")
+        print("Please enter valid integers only.")
 
 def main():
     print("=== Task 1: Number Check ===")
