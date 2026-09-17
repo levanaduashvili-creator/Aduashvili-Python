@@ -9,6 +9,7 @@ The interactive script for all three tasks is available in `main.py`.
    ```bash
    python main.py
    ```
+   ## Part 2: Bracket Sequence Analysis
    Given sequence: [((())()(())]]
 
 1. Can this sequence be considered correct?
